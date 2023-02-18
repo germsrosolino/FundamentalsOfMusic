@@ -16,6 +16,11 @@
 		39BDC05D299F23630035F1C1 /* FundamentalsOfMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BDC05C299F23630035F1C1 /* FundamentalsOfMusicTests.swift */; };
 		39BDC067299F23630035F1C1 /* FundamentalsOfMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BDC066299F23630035F1C1 /* FundamentalsOfMusicUITests.swift */; };
 		39BDC069299F23630035F1C1 /* FundamentalsOfMusicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BDC068299F23630035F1C1 /* FundamentalsOfMusicUITestsLaunchTests.swift */; };
+		39BDC07829A097AE0035F1C1 /* Staff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BDC07729A097AE0035F1C1 /* Staff.swift */; };
+		39BDC07A29A098DC0035F1C1 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BDC07929A098DC0035F1C1 /* Note.swift */; };
+		39BDC07D29A0A3A20035F1C1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BDC07C29A0A3A20035F1C1 /* Home.swift */; };
+		39BDC07F29A0AA380035F1C1 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39BDC07E29A0AA380035F1C1 /* Colors.xcassets */; };
+		39BDC08229A0AF900035F1C1 /* SheetItemsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BDC08129A0AF900035F1C1 /* SheetItemsService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,11 @@
 		39BDC062299F23630035F1C1 /* FundamentalsOfMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FundamentalsOfMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39BDC066299F23630035F1C1 /* FundamentalsOfMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundamentalsOfMusicUITests.swift; sourceTree = "<group>"; };
 		39BDC068299F23630035F1C1 /* FundamentalsOfMusicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundamentalsOfMusicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		39BDC07729A097AE0035F1C1 /* Staff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Staff.swift; sourceTree = "<group>"; };
+		39BDC07929A098DC0035F1C1 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		39BDC07C29A0A3A20035F1C1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		39BDC07E29A0AA380035F1C1 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		39BDC08129A0AF900035F1C1 /* SheetItemsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetItemsService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +108,16 @@
 		39BDC045299F23620035F1C1 /* FundamentalsOfMusic */ = {
 			isa = PBXGroup;
 			children = (
+				39BDC08029A0AE750035F1C1 /* Services */,
+				39BDC07629A0979A0035F1C1 /* Staff */,
+				39BDC07529A097230035F1C1 /* Scenes */,
 				39BDC046299F23620035F1C1 /* FundamentalsOfMusicApp.swift */,
 				39BDC048299F23620035F1C1 /* ContentView.swift */,
 				39BDC04A299F23630035F1C1 /* Assets.xcassets */,
 				39BDC04F299F23630035F1C1 /* Persistence.swift */,
 				39BDC051299F23630035F1C1 /* FundamentalsOfMusic.xcdatamodeld */,
 				39BDC04C299F23630035F1C1 /* Preview Content */,
+				39BDC07E29A0AA380035F1C1 /* Colors.xcassets */,
 			);
 			path = FundamentalsOfMusic;
 			sourceTree = "<group>";
@@ -131,6 +145,39 @@
 				39BDC068299F23630035F1C1 /* FundamentalsOfMusicUITestsLaunchTests.swift */,
 			);
 			path = FundamentalsOfMusicUITests;
+			sourceTree = "<group>";
+		};
+		39BDC07529A097230035F1C1 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				39BDC07B29A0A3760035F1C1 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		39BDC07629A0979A0035F1C1 /* Staff */ = {
+			isa = PBXGroup;
+			children = (
+				39BDC07729A097AE0035F1C1 /* Staff.swift */,
+				39BDC07929A098DC0035F1C1 /* Note.swift */,
+			);
+			path = Staff;
+			sourceTree = "<group>";
+		};
+		39BDC07B29A0A3760035F1C1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				39BDC07C29A0A3A20035F1C1 /* Home.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		39BDC08029A0AE750035F1C1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				39BDC08129A0AF900035F1C1 /* SheetItemsService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39BDC07F29A0AA380035F1C1 /* Colors.xcassets in Resources */,
 				39BDC04E299F23630035F1C1 /* Preview Assets.xcassets in Resources */,
 				39BDC04B299F23630035F1C1 /* Assets.xcassets in Resources */,
 			);
@@ -263,10 +311,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39BDC07829A097AE0035F1C1 /* Staff.swift in Sources */,
 				39BDC053299F23630035F1C1 /* FundamentalsOfMusic.xcdatamodeld in Sources */,
 				39BDC050299F23630035F1C1 /* Persistence.swift in Sources */,
 				39BDC049299F23620035F1C1 /* ContentView.swift in Sources */,
 				39BDC047299F23620035F1C1 /* FundamentalsOfMusicApp.swift in Sources */,
+				39BDC07A29A098DC0035F1C1 /* Note.swift in Sources */,
+				39BDC08229A0AF900035F1C1 /* SheetItemsService.swift in Sources */,
+				39BDC07D29A0A3A20035F1C1 /* Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
