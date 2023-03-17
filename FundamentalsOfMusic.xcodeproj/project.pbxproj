@@ -21,6 +21,7 @@
 		39BDC07D29A0A3A20035F1C1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BDC07C29A0A3A20035F1C1 /* Home.swift */; };
 		39BDC07F29A0AA380035F1C1 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39BDC07E29A0AA380035F1C1 /* Colors.xcassets */; };
 		39BDC08229A0AF900035F1C1 /* SheetItemsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BDC08129A0AF900035F1C1 /* SheetItemsService.swift */; };
+		39BDC08429C2D5C20035F1C1 /* StaffNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BDC08329C2D5C20035F1C1 /* StaffNew.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		39BDC07C29A0A3A20035F1C1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		39BDC07E29A0AA380035F1C1 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		39BDC08129A0AF900035F1C1 /* SheetItemsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetItemsService.swift; sourceTree = "<group>"; };
+		39BDC08329C2D5C20035F1C1 /* StaffNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffNew.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 			children = (
 				39BDC07729A097AE0035F1C1 /* Staff.swift */,
 				39BDC07929A098DC0035F1C1 /* Note.swift */,
+				39BDC08329C2D5C20035F1C1 /* StaffNew.swift */,
 			);
 			path = Staff;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 			files = (
 				39BDC07829A097AE0035F1C1 /* Staff.swift in Sources */,
 				39BDC053299F23630035F1C1 /* FundamentalsOfMusic.xcdatamodeld in Sources */,
+				39BDC08429C2D5C20035F1C1 /* StaffNew.swift in Sources */,
 				39BDC050299F23630035F1C1 /* Persistence.swift in Sources */,
 				39BDC049299F23620035F1C1 /* ContentView.swift in Sources */,
 				39BDC047299F23620035F1C1 /* FundamentalsOfMusicApp.swift in Sources */,
